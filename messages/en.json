@@ -1,0 +1,10 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "courses": "Courses",
+    "chat": "AI Tutor",
+    "dashboard": "Dashboard",
+    "login": "Log in",
+    "start": "Get started"
+  }
+}
