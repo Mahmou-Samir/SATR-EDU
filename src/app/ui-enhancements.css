@@ -1,0 +1,157 @@
+/* Arabic typography — Cairo + Tajawal */
+html[dir="rtl"] body,
+html.locale-ar body {
+  font-family: var(--ar), var(--body);
+  letter-spacing: 0;
+  line-height: 1.85;
+  font-feature-settings: "kern" 1;
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] .nav-logo-text,
+html[dir="rtl"] .courses-hero h1,
+html[dir="rtl"] .courses-stat-num,
+html[dir="rtl"] .hero h1,
+html[dir="rtl"] .dash-greeting,
+html.locale-ar h1,
+html.locale-ar h2,
+html.locale-ar h3,
+html.locale-ar h4,
+html.locale-ar h5 {
+  font-family: var(--ar-display), var(--font);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+html[dir="rtl"] .btn,
+html[dir="rtl"] input,
+html[dir="rtl"] select,
+html[dir="rtl"] textarea,
+html[dir="rtl"] .cat-tab,
+html[dir="rtl"] .fcc-title {
+  font-family: var(--ar), var(--body);
+}
+
+html[dir="rtl"] .hero-sub,
+html[dir="rtl"] p {
+  line-height: 1.9;
+}
+
+/* Form polish */
+.input-wrapper input:focus,
+.register-select:focus,
+.register-textarea:focus,
+.csearch input:focus {
+  outline: none;
+  border-color: var(--pl) !important;
+  box-shadow: 0 0 0 3px rgba(100, 50, 201, 0.2);
+}
+
+.input-invalid,
+.input-wrapper.input-invalid input,
+.register-select.input-invalid,
+.register-textarea.input-invalid {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
+}
+
+.field-error {
+  color: #ef4444;
+  font-size: 0.78rem;
+  margin-top: 0.35rem;
+  line-height: 1.4;
+}
+
+.field-hint {
+  color: var(--hint);
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+}
+
+.password-strength {
+  margin-top: 0.5rem;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.25);
+  overflow: hidden;
+}
+
+.password-strength-bar {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.2s ease, background 0.2s ease;
+}
+
+.password-strength-label {
+  font-size: 0.72rem;
+  margin-top: 0.25rem;
+  color: var(--muted);
+}
+
+.strength-weak .password-strength-bar {
+  width: 33%;
+  background: #ef4444;
+}
+
+.strength-medium .password-strength-bar {
+  width: 66%;
+  background: #f59e0b;
+}
+
+.strength-strong .password-strength-bar {
+  width: 100%;
+  background: #22c55e;
+}
+
+.login-card,
+.register-card {
+  animation: cardIn 0.45s ease;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-primary:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.register-card .input-group label {
+  font-weight: 600;
+  font-size: 0.82rem;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+html[dir="rtl"] .register-nav {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .password-toggle {
+  left: 0.75rem;
+  right: auto;
+}
+
+html[dir="rtl"] .input-wrapper input {
+  padding-left: 2.75rem;
+  padding-right: 1rem;
+}
+
+html[dir="rtl"] .courses-search-bar,
+html[dir="rtl"] .courses-toolbar,
+html[dir="rtl"] .fcc-bottom {
+  direction: rtl;
+}

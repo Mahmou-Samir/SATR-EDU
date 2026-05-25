@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "مكتبة الدورات",
+    "title": "اعثر على دورتك القادمة",
+    "subtitle": "أكثر من 500 دورة مصممة من خبراء في كل المواد. تعلّم بإيقاعك مع دعم ذكي في كل خطوة.",
+    "searchPlaceholder": "ابحث عن دورات، مواد، معلمين...",
+    "searchButton": "بحث",
+    "stats": {
+      "total": "دورة متخصصة",
+      "free": "دورة مجانية",
+      "rating": "متوسط التقييم"
+    }
+  },
+  "features": {
+    "aiTutor": "مدرس ذكي مدمج",
+    "mobile": "تعلّم من الموبايل",
+    "certificate": "شهادة إتمام",
+    "lifetime": "وصول مدى الحياة"
+  },
+  "filters": {
+    "title": "التصفية",
+    "subject": "المادة",
+    "level": "المستوى",
+    "price": "السعر",
+    "rating": "التقييم",
+    "subjects": {
+      "math": "رياضيات",
+      "physics": "فيزياء",
+      "chemistry": "كيمياء",
+      "biology": "أحياء",
+      "arabic": "عربي",
+      "english": "إنجليزي",
+      "programming": "برمجة"
+    },
+    "levels": {
+      "beginner": "مبتدئ",
+      "intermediate": "متوسط",
+      "advanced": "متقدم"
+    },
+    "prices": {
+      "free": "مجاني",
+      "paid": "مدفوع"
+    },
+    "ratings": {
+      "stars45": "4.5+ نجوم",
+      "stars40": "4.0+ نجوم"
+    },
+    "clearAll": "مسح كل التصفية",
+    "mobileTitle": "تصفية الدورات",
+    "mobileOpen": "التصفية",
+    "close": "إغلاق التصفية"
+  },
+  "toolbar": {
+    "showing": "عرض",
+    "coursesCount": "{count} دورة",
+    "forFilters": "حسب التصفية",
+    "sortBy": "ترتيب حسب:",
+    "remaining": "متبقية"
+  },
+  "sort": {
+    "popular": "الأكثر شعبية",
+    "rated": "الأعلى تقييماً",
+    "newest": "الأحدث",
+    "priceLow": "السعر: من الأقل للأعلى"
+  },
+  "tabs": {
+    "all": "الكل",
+    "math": "رياضيات",
+    "physics": "فيزياء",
+    "chemistry": "كيمياء",
+    "languages": "لغات",
+    "programming": "برمجة",
+    "history": "تاريخ"
+  },
+  "card": {
+    "free": "مجاني",
+    "enrolled": "{count} طالب مسجّل",
+    "rating": "⭐ {score}",
+    "lessons": "{count} درس",
+    "hours": "{count} ساعة",
+    "save": "حفظ الدورة",
+    "enroll": "سجّل الآن",
+    "enrollFree": "ابدأ مجاناً",
+    "enrolling": "جاري التسجيل...",
+    "enrollError": "تعذّر التسجيل. تأكد من تسجيل الدخول كطالب وحاول مرة أخرى.",
+    "continueLearning": "متابعة من لوحة التحكم",
+    "teacherCourse": "كورس معلم"
+  },
+  "badges": {
+    "bestseller": "الأكثر مبيعاً",
+    "new": "جديد",
+    "ai": "مدعوم بالذكاء الاصطناعي"
+  },
+  "view": {
+    "grid": "عرض شبكي",
+    "list": "عرض قائمة"
+  },
+  "empty": {
+    "title": "لم نجد دورات",
+    "subtitle": "جرّب تغيير التصفية أو كلمات البحث",
+    "cta": "إعادة ضبط التصفية"
+  },
+  "loadMore": "تحميل المزيد",
+  "items": {
+    "calculus": {
+      "tag": "رياضيات",
+      "title": "حساب التفاضل والتكامل — التفاضل والتكامل",
+      "author": "د. أحمد حسن",
+      "rating": "4.9",
+      "price": "149 جنيه",
+      "studentsCount": "2,100"
+    },
+    "mechanics": {
+      "tag": "فيزياء",
+      "title": "الميكانيكا — القوى والحركة والطاقة",
+      "author": "أ.د. كريم نور",
+      "rating": "4.8",
+      "price": "179 جنيه",
+      "studentsCount": "1,540"
+    },
+    "biology": {
+      "tag": "أحياء",
+      "title": "بيولوجيا الخلية والوراثة — دليل شامل",
+      "author": "د. منى يوسف",
+      "rating": "4.7",
+      "price": "139 جنيه",
+      "studentsCount": "980"
+    },
+    "english": {
+      "tag": "لغات",
+      "title": "إتقان المحادثة الإنجليزية B2–C1",
+      "author": "أ. عمر فريد",
+      "rating": "4.7",
+      "price": "99 جنيه",
+      "studentsCount": "3,200"
+    },
+    "python": {
+      "tag": "برمجة",
+      "title": "بايثون للمبتدئين — من الصفر للاحتراف",
+      "author": "م. منى سمير",
+      "rating": "4.9",
+      "price": "free",
+      "studentsCount": "4,100"
+    },
+    "organic": {
+      "tag": "كيمياء",
+      "title": "كيمياء عضوية — تفاعلات وآليات",
+      "author": "أ. سارة خليل",
+      "rating": "4.8",
+      "price": "129 جنيه",
+      "studentsCount": "1,800"
+    },
+    "history": {
+      "tag": "تاريخ",
+      "title": "مصر الحديثة — من 1800 حتى اليوم",
+      "author": "د. هاني توفيق",
+      "rating": "4.9",
+      "price": "free",
+      "studentsCount": "900"
+    },
+    "trigonometry": {
+      "tag": "رياضيات",
+      "title": "المثلثات والهندسة التحليلية",
+      "author": "أ. دنى رشاد",
+      "rating": "4.6",
+      "price": "119 جنيه",
+      "studentsCount": "1,350"
+    },
+    "arabicEssay": {
+      "tag": "عربي",
+      "title": "كتابة المقال العربي — الثانوية العامة",
+      "author": "د. ليلى أحمد",
+      "rating": "4.8",
+      "price": "89 جنيه",
+      "studentsCount": "2,600"
+    }
+  }
+}

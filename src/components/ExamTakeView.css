@@ -1,0 +1,172 @@
+.exam-take-page {
+  padding: calc(var(--nav-h) + 2rem) 2rem 3rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.exam-take-loading {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.exam-take-header {
+  margin-bottom: 1.5rem;
+}
+
+.exam-take-back {
+  font-size: 0.82rem;
+  color: var(--pl);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.exam-take-header h1 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.exam-take-timer {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.exam-take-timer.urgent {
+  background: rgba(220, 53, 69, 0.12);
+  color: #c82333;
+  border-color: rgba(220, 53, 69, 0.3);
+}
+
+.exam-take-error {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(220, 53, 69, 0.12);
+  color: #c82333;
+}
+
+.exam-take-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r12);
+  padding: 1.5rem;
+}
+
+.exam-take-progress {
+  font-size: 0.82rem;
+  color: var(--hint);
+  margin-bottom: 0.75rem;
+}
+
+.exam-take-prompt {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 1.25rem;
+  white-space: pre-wrap;
+}
+
+.exam-take-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.exam-take-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  text-align: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.exam-take-option:hover {
+  border-color: var(--pl);
+}
+
+.exam-take-option.selected {
+  border-color: var(--pl);
+  background: rgba(100, 50, 201, 0.1);
+}
+
+.exam-take-option-label {
+  font-weight: 800;
+  color: var(--pl);
+  min-width: 1.25rem;
+}
+
+.exam-take-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.exam-take-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.82rem;
+  color: var(--hint);
+  text-align: center;
+}
+
+.exam-take-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.exam-take-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: var(--border);
+  cursor: pointer;
+  padding: 0;
+}
+
+.exam-take-dot.active {
+  background: var(--pl);
+  transform: scale(1.2);
+}
+
+.exam-take-dot.answered {
+  background: rgba(100, 50, 201, 0.5);
+}
+
+.exam-take-result {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r12);
+}
+
+.exam-take-result-score {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--pl);
+}
+
+.exam-take-result-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.exam-take-result-actions .btn {
+  text-decoration: none;
+}

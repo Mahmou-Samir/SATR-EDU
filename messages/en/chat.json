@@ -1,0 +1,129 @@
+{
+  "sidebar": {
+    "title": "AI Tutor Chats",
+    "searchPlaceholder": "Search conversations...",
+    "newConversation": "+ New Conversation",
+    "sections": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisWeek": "This Week"
+    },
+    "conversations": {
+      "newton": {
+        "title": "Newton's Laws of Motion",
+        "meta": "Math · 2 hours ago"
+      },
+      "integration": {
+        "title": "Integration by Parts Practice",
+        "meta": "Math · 5 hours ago"
+      },
+      "organic": {
+        "title": "Organic Chemistry — Reactions",
+        "meta": "Chemistry · 1 day ago"
+      },
+      "arabicEssay": {
+        "title": "Arabic Essay Structure",
+        "meta": "Arabic · 1 day ago"
+      },
+      "limits": {
+        "title": "Limits & Continuity",
+        "meta": "Math · 3 days ago"
+      },
+      "ww2": {
+        "title": "World War II Summary",
+        "meta": "History · 4 days ago"
+      },
+      "python": {
+        "title": "Python Functions & Loops",
+        "meta": "Programming · 5 days ago"
+      }
+    }
+  },
+  "header": {
+    "subjectName": "Physics — Mechanics",
+    "subjectLevel": "Grade 12 · Newton's Laws",
+    "search": "Search",
+    "export": "Export",
+    "settings": "Settings"
+  },
+  "subjectChips": {
+    "physics": "Physics",
+    "math": "Math",
+    "chemistry": "Chemistry",
+    "arabic": "Arabic",
+    "english": "English",
+    "biology": "Biology",
+    "history": "History"
+  },
+  "messages": {
+    "aiGreeting": "Hello Ahmed! I'm your Satr AI Tutor. I can see you're studying Physics — Mechanics today. What would you like to explore? I can explain concepts, solve problems with you, or generate practice questions!",
+    "userQuestion1": "Explain Newton's Second Law with a real-world example please",
+    "aiAnswer1Title": "Newton's Second Law of Motion",
+    "aiAnswer1Body": "states that the net force acting on an object equals its mass multiplied by its acceleration:",
+    "formula": "F = m × a",
+    "aiExampleTitle": "Real-world example — Car acceleration:",
+    "aiExampleBody": "Imagine a car with a mass of 1,000 kg. When the engine applies a net force of 5,000 N, the car accelerates at:",
+    "aiExampleCalc": "a = F/m = 5,000 / 1,000 = 5 m/s²",
+    "aiExampleNote": "Now if the same force is applied to a heavier truck (2,000 kg), it only accelerates at 2.5 m/s². More mass = less acceleration for the same force.",
+    "userQuestion2": "What happens if we double the force but keep the same mass?",
+    "aiAnswer2Intro": "Great question! If you double the force while keeping mass constant, the acceleration also doubles — they have a directly proportional relationship.",
+    "aiAnswer2Formula": "F×2 → a×2 (mass stays constant)",
+    "aiAnswer2Example": "Using our car example: if we apply 10,000 N instead of 5,000 N to the 1,000 kg car:",
+    "aiAnswer2Result": "a = 10,000 / 1,000 = 10 m/s² (exactly doubled! ✓)",
+    "aiAnswer2Note": "This is why sports cars with more powerful engines accelerate much faster — more force, same mass.",
+    "userQuestion3": "Can you give me a practice problem to test myself?",
+    "aiProblemIntro": "Of course! Here's a problem:",
+    "aiProblemTitle": "Problem:",
+    "aiProblemBody": "A 5 kg box is pushed across a frictionless floor with a net force of 20 N for 3 seconds.",
+    "aiProblemFind": "Find:",
+    "aiProblemA": "a) The acceleration of the box",
+    "aiProblemB": "b) The velocity of the box after 3 seconds (starting from rest)",
+    "aiProblemC": "c) The distance covered in 3 seconds",
+    "aiProblemHint": "Hint: You'll need F = ma and kinematic equations!",
+    "aiProblemClosing": "Take your time and share your working — I'll check every step! 💪"
+  },
+  "input": {
+    "placeholder": "Ask anything — a concept, a problem, a formula...",
+    "send": "Send"
+  },
+  "helpers": {
+    "explainDifferently": "Explain differently",
+    "hint": "Give me a hint",
+    "practice": "Generate practice questions",
+    "summarize": "Summarize this topic",
+    "arabic": "باللغة العربية"
+  },
+  "context": {
+    "title": "✨ AI Context Panel",
+    "subtitle": "Personalized to your learning profile",
+    "mastery": "Topic Mastery",
+    "topics": {
+      "firstLaw": "Newton's 1st Law",
+      "secondLaw": "Newton's 2nd Law",
+      "thirdLaw": "Newton's 3rd Law",
+      "friction": "Friction Forces",
+      "circular": "Circular Motion"
+    },
+    "strength": {
+      "strong": "Strong ●",
+      "learning": "Learning ◐",
+      "weak": "Weak ○"
+    },
+    "quizButton": "Generate Quick Quiz →",
+    "session": "Today's Session",
+    "messages": "Messages",
+    "duration": "Duration",
+    "related": "Related Topics",
+    "relatedTopics": {
+      "momentum": "Momentum",
+      "energy": "Energy",
+      "workPower": "Work & Power",
+      "kinematics": "Kinematics",
+      "friction": "Friction",
+      "gravity": "Gravity"
+    },
+    "examCountdown": "Exam Countdown",
+    "examDays": "days until Physics Exam",
+    "examFocus": "Focus: Newton's Laws, Friction, Circular Motion"
+  }
+}

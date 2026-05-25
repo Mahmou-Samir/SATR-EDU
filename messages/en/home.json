@@ -1,0 +1,247 @@
+{
+  "hero": {
+    "badge": "AI-powered education platform",
+    "title": "Learn smarter.<br />Achieve <em>more.</em>",
+    "subtitle": "The first truly AI-native learning platform for students — with a personal tutor, smart exams, and adaptive courses all in one place.",
+    "ctaPrimary": "Start learning free →",
+    "ctaSecondary": "Try AI Tutor",
+    "statStudents": "Active Students",
+    "statCourses": "Expert Courses",
+    "statSatisfaction": "Satisfaction",
+    "statSupport": "AI Support",
+    "statStudentsNum": "1M+",
+    "statCoursesNum": "500+",
+    "statSatisfactionNum": "98%",
+    "statSupportNum": "24/7"
+  },
+  "marquee": {
+    "math": "Mathematics",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "biology": "Biology",
+    "arabic": "Arabic Language",
+    "english": "English",
+    "programming": "Programming",
+    "history": "History",
+    "geography": "Geography",
+    "economics": "Economics",
+    "philosophy": "Philosophy",
+    "art": "Art & Design"
+  },
+  "features": {
+    "badge": "Everything you need",
+    "title": "Built for the way<br />students actually learn",
+    "subtitle": "Six core systems working together — from AI tutoring to OCR grading — designed to adapt to every pace and style.",
+    "items": {
+      "tutor": {
+        "tag": "AI Core",
+        "title": "Personal AI Tutor",
+        "desc": "Context-aware assistant that remembers your learning history, explains concepts step-by-step, and adapts to your level in real time."
+      },
+      "ocr": {
+        "tag": "OCR",
+        "title": "Handwritten Exam Grading",
+        "desc": "Upload a photo of your handwritten answer sheet. Our OCR engine reads it, grades it, and provides detailed feedback in under 30 seconds."
+      },
+      "questions": {
+        "tag": "AI Core",
+        "title": "AI Question Generator",
+        "desc": "Instantly generate practice questions on any topic, with difficulty tuned to your current level. Never run out of study material."
+      },
+      "analytics": {
+        "tag": "Analytics",
+        "title": "Performance Analytics",
+        "desc": "Real-time dashboards tracking your progress, identifying weak spots, and recommending what to study next using ML models."
+      },
+      "marketplace": {
+        "tag": "Content",
+        "title": "Course Marketplace",
+        "desc": "500+ expert-designed courses with video lessons, interactive exercises, and downloadable materials across all subjects."
+      },
+      "educators": {
+        "tag": "Platform",
+        "title": "Educator Marketplace",
+        "desc": "Teachers can publish and sell their own courses, track student progress, and build a sustainable income from their expertise."
+      }
+    }
+  },
+  "aiTutor": {
+    "badge": "AI Tutor — Live",
+    "title": "Your personal teacher.<br />Available 24/7.",
+    "subtitle": "Ask anything — from a quick formula to a full concept explanation. The AI Tutor understands context, remembers previous conversations, and speaks your language.",
+    "bullets": {
+      "memory": "Multi-turn memory — it remembers what you discussed last session",
+      "subjects": "Subject-aware — switches mode from Math to Arabic literature seamlessly",
+      "streaming": "Streaming responses — answers appear word-by-word in real time",
+      "rag": "RAG-powered — pulls from your course materials for precise answers",
+      "safe": "Safe & filtered — all responses are validated before reaching you"
+    },
+    "cta": "Open AI Tutor →",
+    "demo": {
+      "name": "Satr AI Tutor",
+      "online": "Online now",
+      "contextChip": "Math · Grade 12",
+      "userMessage1": "Explain Newton's Second Law with an example",
+      "aiMessage1": "Newton's Second Law states that the net force on an object equals its mass times acceleration:",
+      "formula": "F = m × a",
+      "aiExample": "Example: A soccer ball (0.5 kg) kicked with 10N of force accelerates at 20 m/s² — it moves fast because it's light!",
+      "userMessage2": "What if the mass doubles?",
+      "inputPlaceholder": "Ask anything..."
+    }
+  },
+  "exam": {
+    "badge": "Exam System",
+    "title": "Upload. Grade.<br />Improve instantly.",
+    "subtitle": "Revolutionary OCR technology reads your handwriting, grades your answers against the model solution, and tells you exactly where you lost marks — all in under 30 seconds.",
+    "cta": "Try exam grading →",
+    "avgTime": "Average grading time:",
+    "avgTimeValue": "28 seconds",
+    "steps": {
+      "upload": {
+        "title": "Upload your answer sheet",
+        "desc": "Photo, scan, or PDF — any format works",
+        "pill": "📤 Upload"
+      },
+      "ocr": {
+        "title": "AI reads your handwriting",
+        "desc": "Arabic & English handwriting recognition",
+        "pill": "👁 OCR"
+      },
+      "grade": {
+        "title": "Automatic grading",
+        "desc": "Compared against model answer with scoring",
+        "pill": "✓ Grade"
+      },
+      "report": {
+        "title": "Detailed report",
+        "desc": "Score breakdown, errors explained, next steps",
+        "pill": "📊 Report"
+      }
+    }
+  },
+  "coursesPreview": {
+    "badge": "Course Library",
+    "title": "Top courses this week",
+    "viewAll": "View all 500+ courses →",
+    "items": {
+      "calculus": {
+        "tag": "Mathematics",
+        "title": "Calculus — Differentiation & Integration",
+        "author": "Dr. Ahmed Hassan",
+        "rating": "⭐ 4.9 (2.1k)",
+        "price": "149 EGP"
+      },
+      "chemistry": {
+        "tag": "Chemistry",
+        "title": "Organic Chemistry for High School",
+        "author": "Ms. Sara Khalil",
+        "rating": "⭐ 4.8 (1.8k)",
+        "price": "129 EGP"
+      },
+      "english": {
+        "tag": "Languages",
+        "title": "English Conversation Mastery",
+        "author": "Mr. Omar Farid",
+        "rating": "⭐ 4.7 (3.2k)",
+        "price": "99 EGP"
+      },
+      "python": {
+        "tag": "Programming",
+        "title": "Python for Beginners — Zero to Hero",
+        "author": "Eng. Mona Samir",
+        "rating": "⭐ 4.9 (4.1k)",
+        "price": "Free"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Student Stories",
+    "title": "Loved by over a million students",
+    "items": {
+      "youssef": {
+        "text": "The AI Tutor explained derivatives in a way my teacher never could. I went from failing math to scoring 95% on my finals.",
+        "name": "Youssef Mahmoud",
+        "role": "Grade 12, Cairo"
+      },
+      "nour": {
+        "text": "The OCR exam grading is mind-blowing. I upload my test, and within seconds I know exactly which topics to review before the next exam",
+        "name": "Nour Rashed",
+        "role": "University Student, Alexandria"
+      },
+      "hassan": {
+        "text": "I use Satr Edu to create content for my students. The question generator saves me hours every week and the quality is outstanding.",
+        "name": "Hassan Tawfik",
+        "role": "Teacher, Giza"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Start free. Scale when ready.",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "0",
+        "currency": "EGP",
+        "period": "forever free",
+        "cta": "Get started free",
+        "features": {
+          "courses": "5 free courses",
+          "tutor": "AI Tutor (10 messages/day)",
+          "grading": "Basic exam grading (3/month)",
+          "dashboard": "Performance dashboard",
+          "generator": "Question generator",
+          "unlimitedChat": "Unlimited AI chat"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "ribbon": "Most Popular",
+        "price": "199",
+        "currency": "EGP",
+        "period": "per month",
+        "cta": "Start Pro today",
+        "features": {
+          "courses": "Unlimited courses",
+          "tutor": "Unlimited AI Tutor",
+          "grading": "Unlimited exam grading",
+          "generator": "AI Question Generator",
+          "analytics": "Advanced analytics",
+          "support": "Priority support"
+        }
+      },
+      "school": {
+        "name": "School",
+        "price": "999",
+        "currency": "EGP",
+        "period": "per month · up to 100 students",
+        "cta": "Contact sales",
+        "features": {
+          "pro": "Everything in Pro",
+          "teacherDashboard": "Teacher dashboard",
+          "groupAnalytics": "Group analytics & reports",
+          "curriculum": "Custom curriculum builder",
+          "manager": "Dedicated account manager",
+          "api": "API access"
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to transform<br />how you learn?",
+    "subtitle": "Join over 1 million students already using Satr Edu to study smarter, score higher, and reach their goals.",
+    "primary": "Start for free today →",
+    "secondary": "Try AI Tutor first"
+  },
+  "footer": {
+    "about": "About",
+    "courses": "Courses",
+    "schools": "For Schools",
+    "blog": "Blog",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "copy": "© 2026 Satr Edu. All rights reserved."
+  }
+}

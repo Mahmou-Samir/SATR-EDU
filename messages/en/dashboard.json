@@ -1,0 +1,135 @@
+{
+  "loading": "Loading your dashboard...",
+  "retry": "Try again",
+  "errors": {
+    "loadFailed": "Could not load dashboard. Please refresh.",
+    "resumeFailed": "Could not update progress. Try again."
+  },
+  "sidebar": {
+    "guestName": "Student",
+    "xpLabel": "Level 8 · 1,240 / 1,800 XP",
+    "xpDynamic": "Level {level} · {current} / {max} XP",
+    "navMain": "Main",
+    "navProgress": "Progress",
+    "navAccount": "Account",
+    "overview": "Overview",
+    "myCourses": "My Courses",
+    "aiTutor": "AI Tutor",
+    "aiTutorBadge": "New",
+    "exams": "Exams",
+    "practice": "Practice",
+    "analytics": "Analytics",
+    "achievements": "Achievements",
+    "bookmarks": "Bookmarks",
+    "settings": "Settings",
+    "subscription": "Subscription",
+    "defaultTrack": "Grade 12 · Science Track"
+  },
+  "header": {
+    "greeting": "Good morning, {name} 👋",
+    "dateHint": "Thursday, May 22 · Your exam is in 8 days",
+    "dateToday": "{date}",
+    "examHint": "Your graduation exam is in {days} days — stay focused!",
+    "askAi": "Ask AI Tutor",
+    "notifications": "Notifications"
+  },
+  "kpis": {
+    "lessons": "Lessons Completed",
+    "lessonsChange": "↑ 3 this week",
+    "lessonsChangeUp": "↑ {count} this week",
+    "lessonsChangeDown": "↓ {count} vs last week",
+    "studyTime": "Study Time Today",
+    "studyTimeChange": "↑ Above daily goal",
+    "studyTimeActive": "Active study session today",
+    "studyTimeEmpty": "Start a lesson to track time",
+    "avgScore": "Avg. Score",
+    "avgScoreChange": "↑ {change}% from last week",
+    "avgScoreEmpty": "Complete a quiz to see scores",
+    "streak": "Day Streak",
+    "streakEncourage": "Keep it going!",
+    "streakStart": "Study today to start a streak"
+  },
+  "chart": {
+    "title": "Weekly Performance",
+    "tabs": {
+      "scores": "Scores",
+      "time": "Time",
+      "topics": "Topics"
+    },
+    "legend": {
+      "score": "Score",
+      "exam": "Exam"
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "streak": {
+    "title": "Study Streak — {month}",
+    "count": "🔥 21",
+    "label": "Day streak — Personal best!",
+    "labelActive": "Day streak — keep learning!",
+    "labelEmpty": "Study today to begin your streak"
+  },
+  "courses": {
+    "sectionTitle": "Continue Learning",
+    "viewAll": "All courses →",
+    "empty": "No courses yet — browse recommendations below.",
+    "resume": "Resume",
+    "resuming": "Saving...",
+    "lessonProgress": "Lesson {current} of {total} · {author}",
+    "items": {
+      "calculus": {
+        "title": "Calculus — Differentiation & Integration",
+        "author": "Dr. Ahmed Hassan"
+      },
+      "chemistry": {
+        "title": "Organic Chemistry — Reactions & Mechanisms",
+        "author": "Ms. Sara Khalil"
+      },
+      "python": {
+        "title": "Python for Beginners — Zero to Hero",
+        "author": "Eng. Mona Samir"
+      }
+    }
+  },
+  "recommendations": {
+    "title": "Recommended for you",
+    "subtitle": "Based on your grade, track, and interests",
+    "startFree": "Start free",
+    "viewCourse": "View course →",
+    "reasons": {
+      "interest": "Matches your interests",
+      "track": "Fits your academic track",
+      "grade": "Right level for your grade",
+      "goals": "Aligned with your study goals",
+      "rating": "Highly rated by students",
+      "free": "Free to start"
+    }
+  },
+  "aiSuggestions": {
+    "title": "AI Recommendations for you",
+    "suggestion1": "📉 You struggled with integration by parts last session — review it before Thursday",
+    "suggestion2": "🧪 Chemistry exam in 8 days — start the Organic Reactions quiz now",
+    "suggestion3": "🌟 You're 2 lessons away from completing Calculus — finish strong!",
+    "interestMatch": "🎯 Based on your interest in {subjectLabel}, we picked courses tailored for you",
+    "examPrep": "📅 Graduation exam in {days} days — focus on {courseTitle} with the AI tutor",
+    "finishCourse": "🌟 Only {lessonsLeft} lessons left in {courseTitle} — finish strong!",
+    "startRecommended": "✨ Start {courseTitle} — our top pick for your profile",
+    "practice": "Practice →",
+    "startQuiz": "Start quiz →",
+    "continue": "Continue →",
+    "browseCourses": "Browse →"
+  },
+  "greetings": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "loading": "Loading teacher dashboard...",
+  "retry": "Try again",
+  "errors": {
+    "loadFailed": "Could not load dashboard."
+  },
+  "sidebar": {
+    "badge": "Teacher",
+    "overview": "Overview",
+    "courses": "My Courses",
+    "exams": "Exams",
+    "students": "Students",
+    "analytics": "Analytics",
+    "messages": "Messages",
+    "settings": "Settings",
+    "navMain": "Teaching"
+  },
+  "header": {
+    "greeting": "Welcome back, {name}",
+    "subtitle": "Full picture of your classes, students, and engagement"
+  },
+  "actions": {
+    "manageCourses": "Manage courses",
+    "manageExams": "Exam generator",
+    "browseCourses": "Course catalog",
+    "aiAssist": "AI teaching assistant"
+  },
+  "summary": {
+    "completion": "Avg. course completion",
+    "studyWeek": "Study hours this week",
+    "atRisk": "Students at risk",
+    "engagement": "Weekly engagement"
+  },
+  "insights": {
+    "atRisk": "⚠️ {count} students need follow-up — low progress or inactive",
+    "newEnrollments": "📥 {count} new enrollments this week across your courses",
+    "highScore": "🌟 Class average score is {score}% — excellent performance",
+    "lowProgressCourse": "📉 {courseTitle} averages only {percent}% progress — consider a review session",
+    "engagement": "📊 {percent}% of students were active this week"
+  },
+  "kpis": {
+    "totalStudents": "Total Students",
+    "activeWeek": "Active This Week",
+    "courses": "Courses Teaching",
+    "enrollments": "Total Enrollments",
+    "avgScore": "Class Avg. Score",
+    "newEnrollments": "New enrollments this week"
+  },
+  "chart": {
+    "enrollmentsTitle": "New enrollments — 7 days",
+    "studyTitle": "Study time — 7 days",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "breakdown": {
+    "gradeTitle": "Students by grade",
+    "trackTitle": "Students by track",
+    "empty": "No student data yet"
+  },
+  "courses": {
+    "title": "My courses",
+    "subtitle": "Performance across your assigned catalog",
+    "students": "students",
+    "active": "active",
+    "progress": "progress",
+    "avgScore": "Avg. {score}%",
+    "manage": "Manage course",
+    "colCourse": "Course",
+    "colStudents": "Students",
+    "colProgress": "Progress",
+    "colScore": "Score",
+    "colLessons": "Lessons",
+    "empty": "No courses assigned",
+    "view": "View"
+  },
+  "activity": {
+    "title": "Live activity feed",
+    "empty": "No recent student activity",
+    "lesson": "Lesson",
+    "quiz": "Quiz",
+    "exam": "Exam",
+    "minutes": "{minutes} min",
+    "score": "Score: {score}%"
+  },
+  "attention": {
+    "title": "Needs attention",
+    "subtitle": "Low progress or inactive 7+ days",
+    "colStudent": "Student",
+    "colGrade": "Grade",
+    "colProgress": "Progress",
+    "colLastActive": "Last active",
+    "empty": "All students are on track!",
+    "never": "Never"
+  },
+  "topStudents": {
+    "title": "Top performers",
+    "colStudent": "Student",
+    "colCourses": "Courses",
+    "colScore": "Score",
+    "colProgress": "Progress",
+    "courses": "courses",
+    "progress": "progress",
+    "empty": "No scored activity yet"
+  },
+  "students": {
+    "title": "All enrolled students",
+    "searchPlaceholder": "Search by name, email, or grade...",
+    "colName": "Student",
+    "colGrade": "Grade",
+    "colTrack": "Track",
+    "colCourses": "Courses",
+    "colProgress": "Progress",
+    "colScore": "Score",
+    "colStudy": "Study (week)",
+    "colLastActive": "Last active",
+    "empty": "No students match your search"
+  }
+}

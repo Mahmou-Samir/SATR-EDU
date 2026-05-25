@@ -1,0 +1,135 @@
+{
+  "loading": "جاري تحميل لوحة التحكم...",
+  "retry": "حاول مرة أخرى",
+  "errors": {
+    "loadFailed": "تعذر تحميل لوحة التحكم. حدّث الصفحة.",
+    "resumeFailed": "تعذر تحديث التقدم. حاول مرة أخرى."
+  },
+  "sidebar": {
+    "guestName": "طالب",
+    "xpLabel": "المستوى 8 · 1,240 / 1,800 نقطة",
+    "xpDynamic": "المستوى {level} · {current} / {max} نقطة",
+    "navMain": "الرئيسية",
+    "navProgress": "التقدم",
+    "navAccount": "الحساب",
+    "overview": "نظرة عامة",
+    "myCourses": "دوراتي",
+    "aiTutor": "المدرس الذكي",
+    "aiTutorBadge": "جديد",
+    "exams": "الامتحانات",
+    "practice": "التدريب",
+    "analytics": "التحليلات",
+    "achievements": "الإنجازات",
+    "bookmarks": "المحفوظات",
+    "settings": "الإعدادات",
+    "subscription": "الاشتراك",
+    "defaultTrack": "الصف الثالث الثانوي · علمي"
+  },
+  "header": {
+    "greeting": "صباح الخير، {name} 👋",
+    "dateHint": "الخميس 22 مايو · امتحانك بعد 8 أيام",
+    "dateToday": "{date}",
+    "examHint": "امتحانك النهائي بعد {days} يوم — ركّز!",
+    "askAi": "اسأل المدرس الذكي",
+    "notifications": "الإشعارات"
+  },
+  "kpis": {
+    "lessons": "دروس مكتملة",
+    "lessonsChange": "↑ 3 هذا الأسبوع",
+    "lessonsChangeUp": "↑ {count} هذا الأسبوع",
+    "lessonsChangeDown": "↓ {count} عن الأسبوع الماضي",
+    "studyTime": "وقت الدراسة اليوم",
+    "studyTimeChange": "↑ فوق الهدف اليومي",
+    "studyTimeActive": "درست اليوم — استمر!",
+    "studyTimeEmpty": "ابدأ درساً لتتبع وقتك",
+    "avgScore": "متوسط الدرجات",
+    "avgScoreChange": "↑ {change}% عن الأسبوع الماضي",
+    "avgScoreEmpty": "أكمل اختباراً لعرض الدرجات",
+    "streak": "أيام متتالية",
+    "streakEncourage": "كمل كده!",
+    "streakStart": "ادرس اليوم لبدء سلسلة أيام"
+  },
+  "chart": {
+    "title": "الأداء الأسبوعي",
+    "tabs": {
+      "scores": "الدرجات",
+      "time": "الوقت",
+      "topics": "المواضيع"
+    },
+    "legend": {
+      "score": "درجة",
+      "exam": "امتحان"
+    },
+    "days": {
+      "mon": "إث",
+      "tue": "ثل",
+      "wed": "أر",
+      "thu": "خم",
+      "fri": "جم",
+      "sat": "سب",
+      "sun": "أح"
+    }
+  },
+  "streak": {
+    "title": "سلسلة الدراسة — {month}",
+    "count": "🔥 21",
+    "label": "يوم متتالي — أفضل رقم شخصي!",
+    "labelActive": "أيام متتالية — واصل التعلم!",
+    "labelEmpty": "ادرس اليوم لبدء سلسلتك"
+  },
+  "courses": {
+    "sectionTitle": "تابع التعلم",
+    "viewAll": "كل الدورات ←",
+    "empty": "لا توجد دورات بعد — تصفح التوصيات بالأسفل.",
+    "resume": "متابعة",
+    "resuming": "جاري الحفظ...",
+    "lessonProgress": "الدرس {current} من {total} · {author}",
+    "items": {
+      "calculus": {
+        "title": "التفاضل — التفاضل والتكامل",
+        "author": "د. أحمد حسن"
+      },
+      "chemistry": {
+        "title": "كيمياء عضوية — تفاعلات وآليات",
+        "author": "أ. سارة خليل"
+      },
+      "python": {
+        "title": "بايثون للمبتدئين — من الصفر للاحتراف",
+        "author": "م. منى سمير"
+      }
+    }
+  },
+  "recommendations": {
+    "title": "موصى به لك",
+    "subtitle": "حسب صفك وشعبتك واهتماماتك",
+    "startFree": "ابدأ مجاناً",
+    "viewCourse": "عرض الدورة ←",
+    "reasons": {
+      "interest": "يتوافق مع اهتماماتك",
+      "track": "مناسب لشعبتك الدراسية",
+      "grade": "مستوى مناسب لصفك",
+      "goals": "متوافق مع أهدافك",
+      "rating": "تقييم عالي من الطلاب",
+      "free": "مجاني للبدء"
+    }
+  },
+  "aiSuggestions": {
+    "title": "توصيات الذكاء الاصطناعي لك",
+    "suggestion1": "📉 واجهت صعوبة في التكامل بالتجزئة آخر جلسة — راجعه قبل الخميس",
+    "suggestion2": "🧪 امتحان الكيمياء بعد 8 أيام — ابدأ اختبار التفاعلات العضوية دلوقتي",
+    "suggestion3": "🌟 فاضلك درسان عشان تخلص التفاضل — أكمل بقوة!",
+    "interestMatch": "🎯 بناءً على اهتمامك بـ {subjectLabel}، اخترنا دورات مناسبة لك",
+    "examPrep": "📅 الامتحان النهائي بعد {days} يوم — ركّز على {courseTitle} مع المدرس الذكي",
+    "finishCourse": "🌟 فاضلك {lessonsLeft} دروس في {courseTitle} — أكمل بقوة!",
+    "startRecommended": "✨ ابدأ {courseTitle} — أفضل اختيار لملفك الدراسي",
+    "practice": "تدرب ←",
+    "startQuiz": "ابدأ الاختبار ←",
+    "continue": "تابع ←",
+    "browseCourses": "تصفح ←"
+  },
+  "greetings": {
+    "morning": "صباح الخير",
+    "afternoon": "مساء الخير",
+    "evening": "مساء الخير"
+  }
+}

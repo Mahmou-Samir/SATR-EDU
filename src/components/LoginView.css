@@ -1,0 +1,395 @@
+/* --- Modern Login Wrapper --- */
+.login-wrapper {
+  position: relative;
+  /* مساحة الـ Navbar (لو الناف بار أطول كبر الرقم ده 80px أو 100px) */
+  min-height: calc(100vh - 80px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--background);
+  /* السطرين دول هما اللي هيحلوا المشكلة: بنزق المحتوى لتحت */
+  padding-top: 4rem; 
+  padding-bottom: 2rem;
+}
+
+/* Background Blobs for Visual Interest */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.blob-1 {
+  top: 10%;
+  left: 20%;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(99, 102, 241, 0.4); /* Indigo */
+}
+
+.blob-2 {
+  bottom: 10%;
+  right: 20%;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(236, 72, 153, 0.4); /* Pink */
+}
+
+.dark .blob-1 { opacity: 0.2; }
+.dark .blob-2 { opacity: 0.2; }
+
+/* --- Login Container & Card --- */
+.login-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--card-bg, rgba(255, 255, 255, 0.7));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .login-card {
+  background: rgba(30, 41, 59, 0.7); /* Slate 800 with opacity */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.login-role-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.35rem;
+  background: rgba(100, 50, 201, 0.08);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(100, 50, 201, 0.15);
+}
+
+.login-role-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.5rem;
+  border: none;
+  border-radius: 0.55rem;
+  background: transparent;
+  color: var(--muted, #64748b);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.login-role-btn.active {
+  background: var(--card-bg, #fff);
+  color: var(--p, #6432c9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dark .login-role-btn.active {
+  background: rgba(30, 41, 59, 0.9);
+}
+
+.login-role-icon {
+  font-size: 1.1rem;
+}
+
+.login-role-hint {
+  font-size: 0.75rem;
+  color: var(--hint, #94a3b8);
+  text-align: center;
+  margin: 0 0 1.25rem;
+  line-height: 1.4;
+}
+
+.login-teacher-demo {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.login-error {
+  color: #ef4444;
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: rgba(239, 68, 68, 0.1);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* --- Header --- */
+.login-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+  /* تأكيد لون النص في حالة الـ Light Mode */
+  color: #1e293b; 
+}
+
+/* تأكيد لون النص في حالة الـ Dark Mode */
+.dark .login-header h1 {
+  color: #f8fafc;
+}
+
+.login-header p {
+  color: #64748b; /* Slate 500 */
+  font-size: 0.95rem;
+}
+
+.dark .login-header p {
+  color: #94a3b8; /* Slate 400 */
+}
+
+/* --- Form Elements --- */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.input-icon {
+  position: absolute;
+  inset-inline-start: 1rem;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: var(--input-bg, rgba(255, 255, 255, 0.5));
+  color: var(--foreground);
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.dark .input-wrapper input {
+  background: rgba(15, 23, 42, 0.5); /* Slate 900 */
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.input-wrapper input:focus {
+  outline: none;
+  border-color: var(--pl, #6366f1);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  background: transparent;
+}
+
+.dark .input-wrapper input:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* SVG icons styling inside input */
+.input-icon svg, .password-toggle svg {
+  width: 18px;
+  height: 18px;
+  transition: color 0.2s ease;
+}
+
+.input-wrapper input:focus ~ .input-icon {
+  color: var(--pl, #6366f1);
+}
+
+.password-toggle {
+  position: absolute;
+  inset-inline-end: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.password-toggle:hover {
+  color: var(--foreground);
+}
+
+/* --- Utilities --- */
+.forgot-password {
+  text-align: end;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+}
+
+.forgot-password a {
+  color: var(--pl, #6366f1);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+  color: #4f46e5;
+}
+
+.full-width {
+  width: 100%;
+  padding: 0.85rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, var(--pl, #6366f1) 0%, #4f46e5 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+}
+
+.full-width:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+.full-width:active {
+  transform: translateY(0);
+}
+
+/* --- Divider --- */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+  /* تعديل اللون هنا */
+  color: #64748b; 
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.dark .divider {
+  color: #94a3b8;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.divider span {
+  padding: 0 1rem;
+}
+
+/* --- Social Login --- */
+.social-login {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-social {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: var(--input-bg, rgba(255, 255, 255, 0.5));
+  color: var(--foreground);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dark .btn-social {
+  background: rgba(15, 23, 42, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-social:hover {
+  background: rgba(148, 163, 184, 0.1);
+  transform: translateY(-1px);
+}
+
+.dark .github-icon {
+  filter: invert(1) brightness(0.8);
+}
+
+/* --- Footer Link --- */
+.signup-link {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--muted-foreground, #64748b);
+}
+
+.signup-link a {
+  color: var(--pl, #6366f1);
+  font-weight: 600;
+  text-decoration: none;
+  margin-inline-start: 0.25rem;
+  transition: color 0.2s;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* --- OAuth Loading Spinner --- */
+.btn-social.loading {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.oauth-spinner {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(100, 116, 139, 0.3);
+  border-top-color: var(--pl, #6366f1);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

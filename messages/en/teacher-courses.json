@@ -1,0 +1,39 @@
+{
+  "title": "Manage my courses",
+  "subtitle": "Add, edit, or remove courses you publish for students",
+  "backToDashboard": "Back to dashboard",
+  "addCourse": "+ Add course",
+  "addFirst": "Create your first course",
+  "loading": "Loading your courses...",
+  "empty": "You have not published any courses yet.",
+  "lessons": "lessons",
+  "students": "students",
+  "edit": "Edit",
+  "delete": "Delete",
+  "deleting": "Deleting...",
+  "newCourse": "New course",
+  "editCourse": "Edit course",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "saveChanges": "Save changes",
+  "createCourse": "Create course",
+  "confirmDelete": "Delete this course? Student enrollments for it will be removed.",
+  "errors": {
+    "load": "Could not load courses",
+    "save": "Could not save course",
+    "delete": "Could not delete course"
+  },
+  "form": {
+    "title": "Course name",
+    "titlePlaceholder": "e.g. Calculus for Grade 12",
+    "price": "Price (EGP)",
+    "isFree": "Free course",
+    "subject": "Subject",
+    "level": "Level",
+    "lessons": "Lessons",
+    "hours": "Hours",
+    "emoji": "Icon",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "Short summary for students..."
+  }
+}

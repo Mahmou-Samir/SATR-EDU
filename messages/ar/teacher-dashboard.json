@@ -1,0 +1,125 @@
+{
+  "loading": "جاري تحميل لوحة المدرس...",
+  "retry": "حاول مرة أخرى",
+  "errors": {
+    "loadFailed": "تعذر تحميل لوحة التحكم."
+  },
+  "sidebar": {
+    "badge": "مدرس",
+    "overview": "نظرة عامة",
+    "courses": "دوراتي",
+    "exams": "الامتحانات",
+    "students": "الطلاب",
+    "analytics": "التحليلات",
+    "messages": "الرسائل",
+    "settings": "الإعدادات",
+    "navMain": "التدريس"
+  },
+  "header": {
+    "greeting": "مرحباً بعودتك، {name}",
+    "subtitle": "صورة كاملة لصفوفك وطلابك ومستوى التفاعل"
+  },
+  "actions": {
+    "manageCourses": "إدارة الدورات",
+    "manageExams": "مولّد الامتحانات",
+    "browseCourses": "كتالوج الدورات",
+    "aiAssist": "مساعد التدريس الذكي"
+  },
+  "summary": {
+    "completion": "متوسط إكمال الدورات",
+    "studyWeek": "ساعات الدراسة هذا الأسبوع",
+    "atRisk": "طلاب يحتاجون متابعة",
+    "engagement": "نسبة التفاعل الأسبوعي"
+  },
+  "insights": {
+    "atRisk": "⚠️ {count} طالب يحتاج متابعة — تقدم ضعيف أو غير نشط",
+    "newEnrollments": "📥 {count} تسجيل جديد هذا الأسبوع في دوراتك",
+    "highScore": "🌟 متوسط درجات الصف {score}% — أداء ممتاز",
+    "lowProgressCourse": "📉 {courseTitle} متوسط تقدم {percent}% فقط — فكّر في مراجعة",
+    "engagement": "📊 {percent}% من الطلاب كانوا نشطين هذا الأسبوع"
+  },
+  "kpis": {
+    "totalStudents": "إجمالي الطلاب",
+    "activeWeek": "نشط هذا الأسبوع",
+    "courses": "دورات تدرّسها",
+    "enrollments": "إجمالي التسجيلات",
+    "avgScore": "متوسط درجات الصف",
+    "newEnrollments": "تسجيلات جديدة هذا الأسبوع"
+  },
+  "chart": {
+    "enrollmentsTitle": "تسجيلات جديدة — 7 أيام",
+    "studyTitle": "وقت الدراسة — 7 أيام",
+    "days": {
+      "mon": "إث",
+      "tue": "ثل",
+      "wed": "أر",
+      "thu": "خم",
+      "fri": "جم",
+      "sat": "سب",
+      "sun": "أح"
+    }
+  },
+  "breakdown": {
+    "gradeTitle": "الطلاب حسب الصف",
+    "trackTitle": "الطلاب حسب الشعبة",
+    "empty": "لا توجد بيانات طلاب بعد"
+  },
+  "courses": {
+    "title": "دوراتي",
+    "subtitle": "أداء دوراتك المعينة",
+    "students": "طالب",
+    "active": "نشط",
+    "progress": "تقدم",
+    "avgScore": "متوسط {score}%",
+    "manage": "إدارة الدورة",
+    "colCourse": "الدورة",
+    "colStudents": "الطلاب",
+    "colProgress": "التقدم",
+    "colScore": "الدرجة",
+    "colLessons": "الدروس",
+    "empty": "لا توجد دورات معينة",
+    "view": "عرض"
+  },
+  "activity": {
+    "title": "نشاط مباشر",
+    "empty": "لا يوجد نشاط حديث",
+    "lesson": "درس",
+    "quiz": "اختبار",
+    "exam": "امتحان",
+    "minutes": "{minutes} د",
+    "score": "الدرجة: {score}%"
+  },
+  "attention": {
+    "title": "يحتاجون متابعة",
+    "subtitle": "تقدم ضعيف أو غير نشط +7 أيام",
+    "colStudent": "الطالب",
+    "colGrade": "الصف",
+    "colProgress": "التقدم",
+    "colLastActive": "آخر نشاط",
+    "empty": "كل الطلاب على المسار الصحيح!",
+    "never": "لم يظهر"
+  },
+  "topStudents": {
+    "title": "أفضل الطلاب",
+    "colStudent": "الطالب",
+    "colCourses": "الدورات",
+    "colScore": "الدرجة",
+    "colProgress": "التقدم",
+    "courses": "دورات",
+    "progress": "تقدم",
+    "empty": "لا توجد درجات بعد"
+  },
+  "students": {
+    "title": "كل الطلاب المسجلين",
+    "searchPlaceholder": "ابحث بالاسم أو البريد أو الصف...",
+    "colName": "الطالب",
+    "colGrade": "الصف",
+    "colTrack": "الشعبة",
+    "colCourses": "الدورات",
+    "colProgress": "التقدم",
+    "colScore": "الدرجة",
+    "colStudy": "دراسة (أسبوع)",
+    "colLastActive": "آخر نشاط",
+    "empty": "لا يوجد طلاب مطابقون"
+  }
+}

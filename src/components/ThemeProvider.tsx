@@ -1,4 +1,4 @@
-"use client";
+"use client"; // السطر ده هو السحر اللي هيخفي التحذير
 
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 

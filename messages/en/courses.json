@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "Course Library",
+    "title": "Find your next course",
+    "subtitle": "500+ expert-designed courses across all subjects. Learn at your own pace with AI-powered support every step of the way.",
+    "searchPlaceholder": "Search courses, subjects, teachers...",
+    "searchButton": "Search",
+    "stats": {
+      "total": "Expert courses",
+      "free": "Free courses",
+      "rating": "Avg. rating"
+    }
+  },
+  "features": {
+    "aiTutor": "AI Tutor included",
+    "mobile": "Learn on mobile",
+    "certificate": "Completion certificate",
+    "lifetime": "Lifetime access"
+  },
+  "filters": {
+    "title": "Filters",
+    "subject": "Subject",
+    "level": "Level",
+    "price": "Price",
+    "rating": "Rating",
+    "subjects": {
+      "math": "Mathematics",
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "biology": "Biology",
+      "arabic": "Arabic",
+      "english": "English",
+      "programming": "Programming"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "prices": {
+      "free": "Free",
+      "paid": "Paid"
+    },
+    "ratings": {
+      "stars45": "4.5+ stars",
+      "stars40": "4.0+ stars"
+    },
+    "clearAll": "Clear all filters",
+    "mobileTitle": "Filter courses",
+    "mobileOpen": "Filters",
+    "close": "Close filters"
+  },
+  "toolbar": {
+    "showing": "Showing",
+    "coursesCount": "{count} courses",
+    "forFilters": "for your filters",
+    "sortBy": "Sort by:",
+    "remaining": "remaining"
+  },
+  "sort": {
+    "popular": "Most Popular",
+    "rated": "Highest Rated",
+    "newest": "Newest",
+    "priceLow": "Price: Low to High"
+  },
+  "tabs": {
+    "all": "All",
+    "math": "Math",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "languages": "Languages",
+    "programming": "Programming",
+    "history": "History"
+  },
+  "card": {
+    "free": "Free",
+    "enrolled": "{count} students enrolled",
+    "rating": "⭐ {score}",
+    "lessons": "{count} lessons",
+    "hours": "{count}h content",
+    "save": "Save course",
+    "enroll": "Enroll now",
+    "enrollFree": "Start free",
+    "enrolling": "Enrolling...",
+    "enrollError": "Could not enroll. Sign in as a student and try again.",
+    "continueLearning": "Continue on dashboard",
+    "teacherCourse": "Teacher course"
+  },
+  "badges": {
+    "bestseller": "Bestseller",
+    "new": "New",
+    "ai": "AI Powered"
+  },
+  "view": {
+    "grid": "Grid view",
+    "list": "List view"
+  },
+  "empty": {
+    "title": "No courses found",
+    "subtitle": "Try adjusting your filters or search terms",
+    "cta": "Reset filters"
+  },
+  "loadMore": "Load more courses",
+  "items": {
+    "calculus": {
+      "tag": "Mathematics",
+      "title": "Calculus — Differentiation & Integration",
+      "author": "Dr. Ahmed Hassan",
+      "rating": "4.9",
+      "price": "149 EGP",
+      "studentsCount": "2,100"
+    },
+    "mechanics": {
+      "tag": "Physics",
+      "title": "Mechanics — Forces, Motion & Energy",
+      "author": "Prof. Karim Nour",
+      "rating": "4.8",
+      "price": "179 EGP",
+      "studentsCount": "1,540"
+    },
+    "biology": {
+      "tag": "Biology",
+      "title": "Cell Biology & Genetics — Complete Guide",
+      "author": "Dr. Mona Youssef",
+      "rating": "4.7",
+      "price": "139 EGP",
+      "studentsCount": "980"
+    },
+    "english": {
+      "tag": "Languages",
+      "title": "English Conversation Mastery B2–C1",
+      "author": "Mr. Omar Farid",
+      "rating": "4.7",
+      "price": "99 EGP",
+      "studentsCount": "3,200"
+    },
+    "python": {
+      "tag": "Programming",
+      "title": "Python for Beginners — Zero to Hero",
+      "author": "Eng. Mona Samir",
+      "rating": "4.9",
+      "price": "free",
+      "studentsCount": "4,100"
+    },
+    "organic": {
+      "tag": "Chemistry",
+      "title": "Organic Chemistry — Reactions & Mechanisms",
+      "author": "Ms. Sara Khalil",
+      "rating": "4.8",
+      "price": "129 EGP",
+      "studentsCount": "1,800"
+    },
+    "history": {
+      "tag": "History",
+      "title": "Modern Egypt — 1800 to Present Day",
+      "author": "Dr. Hany Tawfik",
+      "rating": "4.9",
+      "price": "free",
+      "studentsCount": "900"
+    },
+    "trigonometry": {
+      "tag": "Mathematics",
+      "title": "Trigonometry & Analytic Geometry",
+      "author": "Ms. Dina Rashad",
+      "rating": "4.6",
+      "price": "119 EGP",
+      "studentsCount": "1,350"
+    },
+    "arabicEssay": {
+      "tag": "Arabic",
+      "title": "Arabic Essay Writing — Thanaweya Amma",
+      "author": "Dr. Layla Ahmad",
+      "rating": "4.8",
+      "price": "89 EGP",
+      "studentsCount": "2,600"
+    }
+  }
+}
